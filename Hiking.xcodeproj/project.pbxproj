@@ -16,6 +16,7 @@
 		8378945B2440CA7300FAD5A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837894592440CA7300FAD5A8 /* LaunchScreen.storyboard */; };
 		837894662440CA7300FAD5A8 /* HikingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837894652440CA7300FAD5A8 /* HikingTests.swift */; };
 		837894712440CA7300FAD5A8 /* HikingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837894702440CA7300FAD5A8 /* HikingUITests.swift */; };
+		837894802440CB8C00FAD5A8 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378947F2440CB8C00FAD5A8 /* Hike.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8378946C2440CA7300FAD5A8 /* HikingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HikingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		837894702440CA7300FAD5A8 /* HikingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingUITests.swift; sourceTree = "<group>"; };
 		837894722440CA7300FAD5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8378947F2440CB8C00FAD5A8 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		8378944A2440CA7200FAD5A8 /* Hiking */ = {
 			isa = PBXGroup;
 			children = (
+				8378947E2440CB6A00FAD5A8 /* Models */,
 				8378944B2440CA7200FAD5A8 /* AppDelegate.swift */,
 				8378944D2440CA7200FAD5A8 /* SceneDelegate.swift */,
 				837894522440CA7200FAD5A8 /* ContentView.swift */,
@@ -137,6 +140,14 @@
 				837894722440CA7300FAD5A8 /* Info.plist */,
 			);
 			path = HikingUITests;
+			sourceTree = "<group>";
+		};
+		8378947E2440CB6A00FAD5A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8378947F2440CB8C00FAD5A8 /* Hike.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837894802440CB8C00FAD5A8 /* Hike.swift in Sources */,
 				8378944C2440CA7200FAD5A8 /* AppDelegate.swift in Sources */,
 				837894512440CA7200FAD5A8 /* Hiking.xcdatamodeld in Sources */,
 				837894532440CA7200FAD5A8 /* ContentView.swift in Sources */,
